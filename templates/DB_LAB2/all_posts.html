@@ -1,0 +1,45 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance</title>
+</head>
+<body>
+
+<div >
+      <table class="table table-hover table-bordered table-responsive">
+        <caption>
+            <h3>Products</h3>
+        </caption>
+        <thead>
+            <th>Employee id</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Company</th>
+        </thead>
+        <tbody>
+            {% for e in emp %}
+                <tr>
+                    <td> {{ e.0 }} </td>
+                    <td> {{ e.1 }} </td>
+                    <td> {{ e.2 }} </td>
+                    <td> {{ e.3 }} </td>
+                    <td> {{ e.4 }} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+</div>
+
+<form action="click">{% csrf_token %}
+  <p> <button> Click Me! </button> </p>
+</form>
+
+
+
+
+
+
+</body>
+</html>
