@@ -156,7 +156,53 @@ class MyDataDase:
                 con.close()
             return rows
 
+    @classmethod
+    def Accounting(self):
+        con = None
 
+        try:
+            con = mydb.connect( self.host, self.db_user_name, self.password, self.db_name);
+
+            cur = con.cursor()
+            cur.execute("SELECT Visiting.visit_id, Visiting.employee_id, EmployeeInfo.employee_name, Visiting.visit_date "
+                        "FROM Visiting JOIN EmployeeInfo ON Visiting.employee_id=EmployeeInfo.employee_id;")
+
+            rows = cur.fetchall()
+
+        except mydb.Error, e:
+
+            print "Error %d: %s" % (e.args[0],e.args[1])
+            sys.exit(1)
+
+        finally:
+            if con:
+                con.close()
+            return rows
+
+    @classmethod
+    def AddVisiting(self, request):
+        con = None
+
+        print request["date"]
+
+        inserted_date = str(request["date"])
+        inserted_id = str(request["employee_id"])
+
+        try:
+            con = mydb.connect( self.host, self.db_user_name, self.password, self.db_name);
+            cur = con.cursor()
+            cur.execute("""INSERT INTO Visiting(employee_id, visit_date) VALUES (%s, %s);""", (inserted_id, inserted_date))
+            con.commit()
+
+        except mydb.Error, e:
+
+            print "Error %d: %s" % (e.args[0],e.args[1])
+            sys.exit(1)
+
+        finally:
+            if con:
+                con.close()
 
 #MyDataDase.ShowEmployeeInfo()
+# select Visiting.visit_id, Visiting.employee_id, EmployeeInfo.employee_name, Visiting.date from Visiting join EmployeeInfo on Visiting.employee_id=EmployeeInfo.employee_id;
 
