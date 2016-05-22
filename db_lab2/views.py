@@ -32,11 +32,65 @@ def showworkplace(request):
 
 def accounting(request):
     emp = db.Accounting()
-    return render(request, 'DB_LAB2/Accounting.html', {'emp' : emp})
+    emps = db.ShowTableEmployeeInfo()
+    if request.method == 'POST':
+        info = db.GetVisitingById(request.POST['visit_id'])
+        print info
+        # info = [request.POST['employee_id'], request.POST['date']]
+        return render(request, 'DB_LAB2/Accounting.html', {'emp' : emp, 'emps': emps, 'info': info})
+    return render(request, 'DB_LAB2/Accounting.html', {'emp' : emp, 'emps': emps})
 
 def addvisiting(request):
     if request.method == "POST":
         if request.POST["employee_id"] != "" and request.POST["date"] != "":
             db.AddVisiting(request.POST)
-            emp = db.Accounting()
-        return render(request, 'DB_LAB2/Accounting.html', {'emp': emp})
+        return HttpResponseRedirect('/Accounting')
+
+def deletevisiting(request):
+    if request.method == 'POST':
+        db.DeleteVisiting(request.POST)
+        return HttpResponseRedirect('/Accounting')
+
+def showwithfamily(request):
+    if request.method == 'POST':
+        emp = db.ShowEmployeeWithFamily(request.POST)
+        return render(request, 'DB_LAB2/ShowAllInfo.html', {'emp' : emp})
+    else:
+        return HttpResponseRedirect('/ShowAllInfo')
+
+def datesearch(request):
+    if request.method == 'POST':
+        emp = db.DateSearch(request.POST)
+        return render(request, 'DB_LAB2/ShowAllInfo.html', {'emp' : emp})
+    else:
+        return HttpResponseRedirect('/ShowAllInfo')
+
+def exactlysearch(request):
+    if request.method == 'POST':
+        emp = db.ExactlySearch(request.POST)
+        return render(request, 'DB_LAB2/ShowAllInfo.html', {'emp' : emp})
+    else:
+        return HttpResponseRedirect('/ShowAllInfo')
+
+def booleanmodesearch(request):
+    if request.method == 'POST':
+        emp = db.BooleanModeSearch(request.POST)
+        return render(request, 'DB_LAB2/ShowAllInfo.html', {'emp' : emp})
+    else:
+        return HttpResponseRedirect('/ShowAllInfo')
+
+
+def editvisiting(request):
+    if request.method == 'POST':
+        db.EditVisit(request.POST)
+        return HttpResponseRedirect('/Accounting')
+
+def filldb(request):
+    if request.method == 'POST':
+        db.FillDB()
+        return HttpResponseRedirect('/')
+
+def cleardb(request):
+    if request.method == 'POST':
+        db.ClearDB()
+        return HttpResponseRedirect('/')
