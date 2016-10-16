@@ -49,13 +49,12 @@
                   <option value="{{ emp.0 }}" >{{emp.1}}</option>
                   {% endfor %}
               </select>
-{#              <input name="employee_id" type="number" placeholder="employee id">#}
               <input name="date" type="date" placeholder="date">
               <input type="submit" value="Add">
           </div>
       </form>
 
-        <form action="EditVisiting" method="post">{% csrf_token %}
+      <form action="EditVisiting" method="post">{% csrf_token %}
           <div class="input-append">
               <label for="add_visiting">Edit visiting:</label>
               <select id="nameid" name="employee_id" style="width: 160px;height: 30px; border-radius: 5px">
@@ -63,7 +62,7 @@
                   <option value="{{ emp.0 }}" >{{emp.1}}</option>
                   {% endfor %}
               </select>
-              <input name="date" type="text" value="{{ info.2 }}" placeholder="date">
+              <input name="date" type="text" value="{{ info.2 |date:"Y-m-d" }}" placeholder="date">
               <button type="submit" name="visit_id" value="{{ info.0 }}">Edit</button>
           </div>
       </form>

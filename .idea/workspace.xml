@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0ba7104-db7d-4313-8f51-0b1050735ab2" name="Default" comment="" />
+    <list default="true" id="e0ba7104-db7d-4313-8f51-0b1050735ab2" name="Default" comment="Last Version">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_lab2/class_db.py" afterPath="$PROJECT_DIR$/db_lab2/class_db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data.xml" afterPath="$PROJECT_DIR$/static/data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/DB_LAB2/Accounting.html" afterPath="$PROJECT_DIR$/templates/DB_LAB2/Accounting.html" />
+    </list>
     <ignored path="DB_LAB2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,6 +19,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DB_LAB2$Test__templates_DB_LAB2_Accounting_html.coverage" NAME="Test: templates.DB_LAB2.Accounting.html Coverage Results" MODIFIED="1465156153441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/DB_LAB2$class_db.coverage" NAME="class_db Coverage Results" MODIFIED="1459963493039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_lab2" />
     <SUITE FILE_PATH="coverage/DB_LAB2$Unittests_in_DB_LAB2.coverage" NAME="Unittests in DB_LAB2 Coverage Results" MODIFIED="1459963235172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -36,124 +42,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db_lab2/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14715719">
-              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#968#1392#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Accounting.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/Accounting.html">
+      <file leaf-file-name="class_db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_lab2/class_db.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="13" selection-start-line="57" selection-start-column="8" selection-end-line="68" selection-end-column="13" />
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#form#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#0;n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#2567#3011#0" expanded="false" />
+                <element signature="e#3055#3496#0" expanded="false" />
+                <element signature="e#3539#3979#0" expanded="false" />
+                <element signature="e#4015#4611#0" expanded="false" />
+                <element signature="e#4657#5324#0" expanded="false" />
+                <element signature="e#5370#5972#0" expanded="false" />
+                <element signature="e#6021#6462#0" expanded="false" />
+                <element signature="e#6519#7503#0" expanded="false" />
+                <element signature="e#7548#8605#0" expanded="false" />
+                <element signature="e#8653#9664#0" expanded="false" />
+                <element signature="e#10868#11467#0" expanded="false" />
+                <element signature="e#11500#12002#0" expanded="false" />
+                <element signature="e#12034#13785#0" expanded="false" />
+                <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+                <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+                <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+                <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+                <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+                <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+                <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+                <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+                <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+                <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+                <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+                <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+                <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+                <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+                <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+                <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+                <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+                <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+                <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+                <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+                <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+                <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+                <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+                <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+                <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+                <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+                <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+                <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+                <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+                <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+                <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+                <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+                <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+                <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+                <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+                <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+                <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/header.html">
+      <file leaf-file-name="all_posts.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/all_posts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.4030612">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_lab2/urls.py">
+      <file leaf-file-name="ShowCompanies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/ShowCompanies.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="class_db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db_lab2/class_db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.194445">
-              <caret line="405" column="21" selection-start-line="405" selection-start-column="21" selection-end-line="405" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#239#695#0" expanded="false" />
-                <element signature="e#749#1597#0" expanded="false" />
-                <element signature="e#1658#2112#0" expanded="false" />
-                <element signature="e#2176#2620#0" expanded="false" />
-                <element signature="e#2681#3122#0" expanded="false" />
-                <element signature="e#3182#3622#0" expanded="false" />
-                <element signature="e#3675#4271#0" expanded="false" />
-                <element signature="e#4334#5001#0" expanded="false" />
-                <element signature="e#5064#5666#0" expanded="false" />
-                <element signature="e#5732#6173#0" expanded="false" />
-                <element signature="e#6247#7231#0" expanded="false" />
-                <element signature="e#7293#8350#0" expanded="false" />
-                <element signature="e#8415#9426#0" expanded="false" />
-                <element signature="e#9495#10540#0" expanded="false" />
-                <element signature="e#10584#11183#0" expanded="false" />
-                <element signature="e#11216#11718#0" expanded="false" />
-                <element signature="e#11750#13505#0" expanded="false" />
-                <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-                <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-                <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-                <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-                <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-                <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-                <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-                <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-                <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-                <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-                <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-                <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-                <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-                <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-                <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-                <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-                <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-                <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-                <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-                <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-                <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-                <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-                <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-                <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-                <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-                <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-                <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-                <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-                <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-                <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-                <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-                <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-                <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-                <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/data.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5">
-              <caret line="12" column="108" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
+            <state vertical-scroll-proportion="4.2083335">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -180,18 +145,18 @@
         <option value="/Python Fragment (all_posts.html:111).py" />
         <option value="$PROJECT_DIR$/templates/DB_LAB2/shapka.html" />
         <option value="$PROJECT_DIR$/templates/DB_LAB2/ShowCompanies.html" />
-        <option value="$PROJECT_DIR$/templates/DB_LAB2/all_posts.html" />
         <option value="$PROJECT_DIR$/templates/DB_LAB2/ShowEmployeeInfo.html" />
         <option value="$PROJECT_DIR$/db_lab2/forms.py" />
         <option value="$PROJECT_DIR$/DB_LAB2/settings.py" />
         <option value="$PROJECT_DIR$/templates/DB_LAB2/ShowWorkPlace.html" />
         <option value="$PROJECT_DIR$/templates/DB_LAB2/ShowAllInfo.html" />
-        <option value="$PROJECT_DIR$/templates/DB_LAB2/Accounting.html" />
         <option value="$PROJECT_DIR$/templates/DB_LAB2/header.html" />
-        <option value="$PROJECT_DIR$/db_lab2/class_db.py" />
-        <option value="$PROJECT_DIR$/static/data.xml" />
         <option value="$PROJECT_DIR$/db_lab2/urls.py" />
         <option value="$PROJECT_DIR$/db_lab2/views.py" />
+        <option value="$PROJECT_DIR$/static/data.xml" />
+        <option value="$PROJECT_DIR$/templates/DB_LAB2/Accounting.html" />
+        <option value="$PROJECT_DIR$/db_lab2/class_db.py" />
+        <option value="$PROJECT_DIR$/templates/DB_LAB2/all_posts.html" />
       </list>
     </option>
   </component>
@@ -201,10 +166,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1360" />
-    <option name="y" value="-4" />
-    <option name="width" value="1680" />
-    <option name="height" value="1054" />
+    <option name="x" value="49" />
+    <option name="y" value="24" />
+    <option name="width" value="1311" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -231,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,8 +204,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DB_LAB2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db_lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +274,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
-  <component name="RunManager" selected="Python.class_db">
+  <component name="RunManager" selected="Django tests.Test: templates.DB_LAB2.Accounting.html">
     <configuration default="false" name="class_db" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,6 +314,26 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: templates.DB_LAB2.Accounting.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DB_LAB2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="templates.DB_LAB2.Accounting.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -535,15 +576,17 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Django server.DB_LAB2" />
       <item index="1" class="java.lang.String" itemvalue="Python.class_db" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in DB_LAB2" />
+      <item index="3" class="java.lang.String" itemvalue="Django tests.Test: templates.DB_LAB2.Accounting.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.class_db" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in DB_LAB2" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: templates.DB_LAB2.Accounting.html" />
+        <item index="1" class="java.lang.String" itemvalue="Python.class_db" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in DB_LAB2" />
       </list>
     </recent_temporary>
   </component>
@@ -591,16 +634,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1360" y="-4" width="1680" height="1054" extended-state="6" />
+    <frame x="49" y="24" width="1311" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38727078" sideWeight="0.49565217" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30852714" sideWeight="0.49565217" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279396" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17870256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279396" sideWeight="0.4972332" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21660079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62015504" sideWeight="0.4972332" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.80775195" sideWeight="0.5043478" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22222222" sideWeight="0.4972332" order="10" side_tool="false" content_ui="tabs" />
@@ -609,6 +651,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -633,18 +676,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_lab2/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -661,57 +697,56 @@
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#239#695#0" expanded="false" />
-            <element signature="e#749#1597#0" expanded="false" />
-            <element signature="e#1658#2112#0" expanded="false" />
-            <element signature="e#2176#2620#0" expanded="false" />
-            <element signature="e#2681#3122#0" expanded="false" />
-            <element signature="e#3182#3622#0" expanded="false" />
-            <element signature="e#3675#4271#0" expanded="false" />
-            <element signature="e#4334#5001#0" expanded="false" />
-            <element signature="e#5064#5666#0" expanded="false" />
-            <element signature="e#5732#6173#0" expanded="false" />
-            <element signature="e#6247#7231#0" expanded="false" />
-            <element signature="e#7293#8350#0" expanded="false" />
-            <element signature="e#8415#9426#0" expanded="false" />
-            <element signature="e#9495#10540#0" expanded="false" />
-            <element signature="e#10584#11183#0" expanded="false" />
-            <element signature="e#11216#11718#0" expanded="false" />
-            <element signature="e#11750#13505#0" expanded="false" />
-            <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-            <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-            <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-            <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-            <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-            <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-            <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-            <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
+            <element signature="e#2567#3011#0" expanded="false" />
+            <element signature="e#3055#3496#0" expanded="false" />
+            <element signature="e#3539#3979#0" expanded="false" />
+            <element signature="e#4015#4611#0" expanded="false" />
+            <element signature="e#4657#5324#0" expanded="false" />
+            <element signature="e#5370#5972#0" expanded="false" />
+            <element signature="e#6021#6462#0" expanded="false" />
+            <element signature="e#6519#7503#0" expanded="false" />
+            <element signature="e#7548#8605#0" expanded="false" />
+            <element signature="e#8653#9664#0" expanded="false" />
+            <element signature="e#10868#11467#0" expanded="false" />
+            <element signature="e#11500#12002#0" expanded="false" />
+            <element signature="e#12034#13785#0" expanded="false" />
+            <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+            <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+            <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+            <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+            <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+            <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+            <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+            <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
           </folding>
         </state>
       </provider>
@@ -764,57 +799,56 @@
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#239#695#0" expanded="false" />
-            <element signature="e#749#1597#0" expanded="false" />
-            <element signature="e#1658#2112#0" expanded="false" />
-            <element signature="e#2176#2620#0" expanded="false" />
-            <element signature="e#2681#3122#0" expanded="false" />
-            <element signature="e#3182#3622#0" expanded="false" />
-            <element signature="e#3675#4271#0" expanded="false" />
-            <element signature="e#4334#5001#0" expanded="false" />
-            <element signature="e#5064#5666#0" expanded="false" />
-            <element signature="e#5732#6173#0" expanded="false" />
-            <element signature="e#6247#7231#0" expanded="false" />
-            <element signature="e#7293#8350#0" expanded="false" />
-            <element signature="e#8415#9426#0" expanded="false" />
-            <element signature="e#9495#10540#0" expanded="false" />
-            <element signature="e#10584#11183#0" expanded="false" />
-            <element signature="e#11216#11718#0" expanded="false" />
-            <element signature="e#11750#13505#0" expanded="false" />
-            <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-            <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-            <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-            <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-            <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-            <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-            <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-            <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
+            <element signature="e#2567#3011#0" expanded="false" />
+            <element signature="e#3055#3496#0" expanded="false" />
+            <element signature="e#3539#3979#0" expanded="false" />
+            <element signature="e#4015#4611#0" expanded="false" />
+            <element signature="e#4657#5324#0" expanded="false" />
+            <element signature="e#5370#5972#0" expanded="false" />
+            <element signature="e#6021#6462#0" expanded="false" />
+            <element signature="e#6519#7503#0" expanded="false" />
+            <element signature="e#7548#8605#0" expanded="false" />
+            <element signature="e#8653#9664#0" expanded="false" />
+            <element signature="e#10868#11467#0" expanded="false" />
+            <element signature="e#11500#12002#0" expanded="false" />
+            <element signature="e#12034#13785#0" expanded="false" />
+            <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+            <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+            <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+            <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+            <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+            <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+            <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+            <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
           </folding>
         </state>
       </provider>
@@ -853,57 +887,56 @@
           <caret line="36" column="29" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#239#695#0" expanded="false" />
-            <element signature="e#749#1597#0" expanded="false" />
-            <element signature="e#1658#2112#0" expanded="false" />
-            <element signature="e#2176#2620#0" expanded="false" />
-            <element signature="e#2681#3122#0" expanded="false" />
-            <element signature="e#3182#3622#0" expanded="false" />
-            <element signature="e#3675#4271#0" expanded="false" />
-            <element signature="e#4334#5001#0" expanded="false" />
-            <element signature="e#5064#5666#0" expanded="false" />
-            <element signature="e#5732#6173#0" expanded="false" />
-            <element signature="e#6247#7231#0" expanded="false" />
-            <element signature="e#7293#8350#0" expanded="false" />
-            <element signature="e#8415#9426#0" expanded="false" />
-            <element signature="e#9495#10540#0" expanded="false" />
-            <element signature="e#10584#11183#0" expanded="false" />
-            <element signature="e#11216#11718#0" expanded="false" />
-            <element signature="e#11750#13505#0" expanded="false" />
-            <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-            <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-            <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-            <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-            <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-            <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-            <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-            <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
+            <element signature="e#2567#3011#0" expanded="false" />
+            <element signature="e#3055#3496#0" expanded="false" />
+            <element signature="e#3539#3979#0" expanded="false" />
+            <element signature="e#4015#4611#0" expanded="false" />
+            <element signature="e#4657#5324#0" expanded="false" />
+            <element signature="e#5370#5972#0" expanded="false" />
+            <element signature="e#6021#6462#0" expanded="false" />
+            <element signature="e#6519#7503#0" expanded="false" />
+            <element signature="e#7548#8605#0" expanded="false" />
+            <element signature="e#8653#9664#0" expanded="false" />
+            <element signature="e#10868#11467#0" expanded="false" />
+            <element signature="e#11500#12002#0" expanded="false" />
+            <element signature="e#12034#13785#0" expanded="false" />
+            <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+            <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+            <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+            <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+            <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+            <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+            <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+            <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
           </folding>
         </state>
       </provider>
@@ -942,57 +975,56 @@
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#239#695#0" expanded="false" />
-            <element signature="e#749#1597#0" expanded="false" />
-            <element signature="e#1658#2112#0" expanded="false" />
-            <element signature="e#2176#2620#0" expanded="false" />
-            <element signature="e#2681#3122#0" expanded="false" />
-            <element signature="e#3182#3622#0" expanded="false" />
-            <element signature="e#3675#4271#0" expanded="false" />
-            <element signature="e#4334#5001#0" expanded="false" />
-            <element signature="e#5064#5666#0" expanded="false" />
-            <element signature="e#5732#6173#0" expanded="false" />
-            <element signature="e#6247#7231#0" expanded="false" />
-            <element signature="e#7293#8350#0" expanded="false" />
-            <element signature="e#8415#9426#0" expanded="false" />
-            <element signature="e#9495#10540#0" expanded="false" />
-            <element signature="e#10584#11183#0" expanded="false" />
-            <element signature="e#11216#11718#0" expanded="false" />
-            <element signature="e#11750#13505#0" expanded="false" />
-            <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-            <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-            <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-            <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-            <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-            <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-            <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-            <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
+            <element signature="e#2567#3011#0" expanded="false" />
+            <element signature="e#3055#3496#0" expanded="false" />
+            <element signature="e#3539#3979#0" expanded="false" />
+            <element signature="e#4015#4611#0" expanded="false" />
+            <element signature="e#4657#5324#0" expanded="false" />
+            <element signature="e#5370#5972#0" expanded="false" />
+            <element signature="e#6021#6462#0" expanded="false" />
+            <element signature="e#6519#7503#0" expanded="false" />
+            <element signature="e#7548#8605#0" expanded="false" />
+            <element signature="e#8653#9664#0" expanded="false" />
+            <element signature="e#10868#11467#0" expanded="false" />
+            <element signature="e#11500#12002#0" expanded="false" />
+            <element signature="e#12034#13785#0" expanded="false" />
+            <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+            <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+            <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+            <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+            <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+            <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+            <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+            <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
           </folding>
         </state>
       </provider>
@@ -1031,57 +1063,56 @@
           <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#239#695#0" expanded="false" />
-            <element signature="e#749#1597#0" expanded="false" />
-            <element signature="e#1658#2112#0" expanded="false" />
-            <element signature="e#2176#2620#0" expanded="false" />
-            <element signature="e#2681#3122#0" expanded="false" />
-            <element signature="e#3182#3622#0" expanded="false" />
-            <element signature="e#3675#4271#0" expanded="false" />
-            <element signature="e#4334#5001#0" expanded="false" />
-            <element signature="e#5064#5666#0" expanded="false" />
-            <element signature="e#5732#6173#0" expanded="false" />
-            <element signature="e#6247#7231#0" expanded="false" />
-            <element signature="e#7293#8350#0" expanded="false" />
-            <element signature="e#8415#9426#0" expanded="false" />
-            <element signature="e#9495#10540#0" expanded="false" />
-            <element signature="e#10584#11183#0" expanded="false" />
-            <element signature="e#11216#11718#0" expanded="false" />
-            <element signature="e#11750#13505#0" expanded="false" />
-            <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-            <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-            <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-            <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-            <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-            <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-            <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-            <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
+            <element signature="e#2567#3011#0" expanded="false" />
+            <element signature="e#3055#3496#0" expanded="false" />
+            <element signature="e#3539#3979#0" expanded="false" />
+            <element signature="e#4015#4611#0" expanded="false" />
+            <element signature="e#4657#5324#0" expanded="false" />
+            <element signature="e#5370#5972#0" expanded="false" />
+            <element signature="e#6021#6462#0" expanded="false" />
+            <element signature="e#6519#7503#0" expanded="false" />
+            <element signature="e#7548#8605#0" expanded="false" />
+            <element signature="e#8653#9664#0" expanded="false" />
+            <element signature="e#10868#11467#0" expanded="false" />
+            <element signature="e#11500#12002#0" expanded="false" />
+            <element signature="e#12034#13785#0" expanded="false" />
+            <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+            <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+            <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+            <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+            <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+            <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+            <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+            <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
           </folding>
         </state>
       </provider>
@@ -1110,57 +1141,56 @@
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#239#695#0" expanded="false" />
-            <element signature="e#749#1597#0" expanded="false" />
-            <element signature="e#1658#2112#0" expanded="false" />
-            <element signature="e#2176#2620#0" expanded="false" />
-            <element signature="e#2681#3122#0" expanded="false" />
-            <element signature="e#3182#3622#0" expanded="false" />
-            <element signature="e#3675#4271#0" expanded="false" />
-            <element signature="e#4334#5001#0" expanded="false" />
-            <element signature="e#5064#5666#0" expanded="false" />
-            <element signature="e#5732#6173#0" expanded="false" />
-            <element signature="e#6247#7231#0" expanded="false" />
-            <element signature="e#7293#8350#0" expanded="false" />
-            <element signature="e#8415#9426#0" expanded="false" />
-            <element signature="e#9495#10540#0" expanded="false" />
-            <element signature="e#10584#11183#0" expanded="false" />
-            <element signature="e#11216#11718#0" expanded="false" />
-            <element signature="e#11750#13505#0" expanded="false" />
-            <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-            <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-            <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-            <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-            <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-            <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-            <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-            <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
+            <element signature="e#2567#3011#0" expanded="false" />
+            <element signature="e#3055#3496#0" expanded="false" />
+            <element signature="e#3539#3979#0" expanded="false" />
+            <element signature="e#4015#4611#0" expanded="false" />
+            <element signature="e#4657#5324#0" expanded="false" />
+            <element signature="e#5370#5972#0" expanded="false" />
+            <element signature="e#6021#6462#0" expanded="false" />
+            <element signature="e#6519#7503#0" expanded="false" />
+            <element signature="e#7548#8605#0" expanded="false" />
+            <element signature="e#8653#9664#0" expanded="false" />
+            <element signature="e#10868#11467#0" expanded="false" />
+            <element signature="e#11500#12002#0" expanded="false" />
+            <element signature="e#12034#13785#0" expanded="false" />
+            <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+            <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+            <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+            <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+            <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+            <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+            <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+            <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
           </folding>
         </state>
       </provider>
@@ -1266,20 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_lab2/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57416266">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/all_posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29850745">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/ShowEmployeeInfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.875">
@@ -1301,13 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/ShowCompanies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07097792">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/ShowAllInfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.791666">
@@ -1322,92 +1331,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/Accounting.html">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydev_monkey_qt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="13" selection-start-line="57" selection-start-column="8" selection-end-line="68" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#form#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="12" column="108" selection-start-line="12" selection-start-column="108" selection-end-line="12" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db_lab2/class_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.194445">
-          <caret line="405" column="21" selection-start-line="405" selection-start-column="21" selection-end-line="405" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#239#695#0" expanded="false" />
-            <element signature="e#749#1597#0" expanded="false" />
-            <element signature="e#1658#2112#0" expanded="false" />
-            <element signature="e#2176#2620#0" expanded="false" />
-            <element signature="e#2681#3122#0" expanded="false" />
-            <element signature="e#3182#3622#0" expanded="false" />
-            <element signature="e#3675#4271#0" expanded="false" />
-            <element signature="e#4334#5001#0" expanded="false" />
-            <element signature="e#5064#5666#0" expanded="false" />
-            <element signature="e#5732#6173#0" expanded="false" />
-            <element signature="e#6247#7231#0" expanded="false" />
-            <element signature="e#7293#8350#0" expanded="false" />
-            <element signature="e#8415#9426#0" expanded="false" />
-            <element signature="e#9495#10540#0" expanded="false" />
-            <element signature="e#10584#11183#0" expanded="false" />
-            <element signature="e#11216#11718#0" expanded="false" />
-            <element signature="e#11750#13505#0" expanded="false" />
-            <marker date="1463907931986" expanded="true" signature="941:948" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="941:1356" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1857" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="1850:1870" placeholder="SELECT * FRO... Companies" />
-            <marker date="1463907931986" expanded="true" signature="1850:1871" placeholder="SELECT * FRO... Company" />
-            <marker date="1463907931986" expanded="true" signature="2350:2376" placeholder="SELECT * FRO... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="2855:2878" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3370" placeholder="SELECT * FRO... WorkPlace" />
-            <marker date="1463907931986" expanded="true" signature="3356:3378" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3849:4030" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="3855:4030" placeholder="SELECT * FRO... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4689" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="false" signature="4508:4741" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4743" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4756" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="4508:4760" placeholder="SELECT Visit... " />
-            <marker date="1463907931986" expanded="true" signature="4508:4763" placeholder="SELECT Visit... Visiting" />
-            <marker date="1463907931986" expanded="true" signature="5366:5427" placeholder="INSERT INTO Visiting... " />
-            <marker date="1463907931986" expanded="true" signature="5905:5941" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="6440:6967" placeholder="SELECT Emplo... EmployeeInfo" />
-            <marker date="1463907931986" expanded="true" signature="7486:8086" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="8608:9162" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="9688:10276" placeholder="SELECT Emplo... " />
-            <marker date="1463907931986" expanded="true" signature="10777:10978" placeholder="UPDATE Visit... " />
-            <marker date="1463907931986" expanded="true" signature="11389:11402" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11389:11413" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11454" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11442:11461" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11502" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="11490:11511" placeholder="DELETE FROM " />
-            <marker date="1463907931986" expanded="true" signature="12163:12308" placeholder="INSERT INTO Company... " />
-            <marker date="1463907931986" expanded="true" signature="12466:12778" placeholder="INSERT INTO WorkPlace... " />
-            <marker date="1463907931986" expanded="true" signature="12927:13125" placeholder="INSERT INTO EmployeeInfo... " />
-            <marker date="1463907931986" expanded="true" signature="13200:13476" placeholder="INSERT INTO EmployeeInfo... " />
-          </folding>
+        <state vertical-scroll-proportion="0.19349593">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_lab2/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1415,21 +1365,105 @@
     <entry file="file://$PROJECT_DIR$/db_lab2/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/Accounting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03318584">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db_lab2/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14715719">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.09453782">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
             <element signature="e#968#1392#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/ShowCompanies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.2083335">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_lab2/class_db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#2567#3011#0" expanded="false" />
+            <element signature="e#3055#3496#0" expanded="false" />
+            <element signature="e#3539#3979#0" expanded="false" />
+            <element signature="e#4015#4611#0" expanded="false" />
+            <element signature="e#4657#5324#0" expanded="false" />
+            <element signature="e#5370#5972#0" expanded="false" />
+            <element signature="e#6021#6462#0" expanded="false" />
+            <element signature="e#6519#7503#0" expanded="false" />
+            <element signature="e#7548#8605#0" expanded="false" />
+            <element signature="e#8653#9664#0" expanded="false" />
+            <element signature="e#10868#11467#0" expanded="false" />
+            <element signature="e#11500#12002#0" expanded="false" />
+            <element signature="e#12034#13785#0" expanded="false" />
+            <marker date="1476647890288" expanded="true" signature="236:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="false" signature="239:1277" placeholder="..." />
+            <marker date="1476647890288" expanded="true" signature="487:494" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="487:906" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="487:969" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2148" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="2141:2161" placeholder="SELECT * FRO... Companies" />
+            <marker date="1476647890288" expanded="true" signature="2141:2162" placeholder="SELECT * FRO... Company" />
+            <marker date="1476647890288" expanded="true" signature="2741:2767" placeholder="SELECT * FRO... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="3229:3252" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3727" placeholder="SELECT * FRO... WorkPlace" />
+            <marker date="1476647890288" expanded="true" signature="3713:3735" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4189:4370" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4195:4370" placeholder="SELECT * FRO... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5012" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5064" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5066" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5079" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="4831:5083" placeholder="SELECT Visit... " />
+            <marker date="1476647890288" expanded="true" signature="4831:5086" placeholder="SELECT Visit... Visiting" />
+            <marker date="1476647890288" expanded="true" signature="5672:5733" placeholder="INSERT INTO Visiting... " />
+            <marker date="1476647890288" expanded="true" signature="6194:6230" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="6712:7239" placeholder="SELECT Emplo... EmployeeInfo" />
+            <marker date="1476647890288" expanded="true" signature="7741:8341" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="8846:9400" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="9984:10559" placeholder="SELECT Emplo... " />
+            <marker date="1476647890288" expanded="true" signature="11061:11262" placeholder="UPDATE Visit... " />
+            <marker date="1476647890288" expanded="true" signature="11673:11686" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11673:11697" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11738" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11726:11745" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11786" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="11774:11795" placeholder="DELETE FROM " />
+            <marker date="1476647890288" expanded="true" signature="12447:12592" placeholder="INSERT INTO Company... " />
+            <marker date="1476647890288" expanded="true" signature="12750:13062" placeholder="INSERT INTO WorkPlace... " />
+            <marker date="1476647890288" expanded="true" signature="13211:13409" placeholder="INSERT INTO EmployeeInfo... " />
+            <marker date="1476647890288" expanded="true" signature="13484:13760" placeholder="INSERT INTO EmployeeInfo... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/DB_LAB2/all_posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4030612">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

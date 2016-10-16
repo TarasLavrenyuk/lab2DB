@@ -25,11 +25,11 @@
 		<workplace workplace_id="10" company_id="2" position="Security" salary="280" comp_auto="0" start_of_working="2015-10-02"></workplace>
 	</workplaces>
 	<companies>
-		<company company_id="1" company_name="Bing"></company>
+		<company company_id="1" company_name="Bing Corporation"></company>
 		<company company_id="2" company_name="Google"></company>
-		<company company_id="3" company_name="Yahoo"></company>
+		<company company_id="3" company_name="TOB Yahoo"></company>
 		<company company_id="4" company_name="Yandex"></company>
 		<company company_id="5" company_name="Microsoft"></company>
-		<company company_id="6" company_name="Apple"></company>		
+		<company company_id="6" company_name="Apple Company"></company>
 	</companies>
 </data>

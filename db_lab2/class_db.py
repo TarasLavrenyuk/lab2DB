@@ -1,6 +1,9 @@
 import sys
 import MySQLdb as mydb
 import xml.etree.ElementTree as ET
+import pymongo
+from pymongo import MongoClient
+
 
 class MyDataDase:
 
@@ -9,57 +12,62 @@ class MyDataDase:
     password = '852456aaa'
     db_name = 'mydb'
 
-    @classmethod
-    def GetVersion(self):
 
-        con = None
+    # def ShowAllInfo(self):
+    #     con = None
+    #     rows = []
+    #
+    #     try:
+    #         con = mydb.connect( self.host, self.db_user_name, self.password, self.db_name);
+    #
+    #         cur = con.cursor()
+    #         cur.execute("SELECT EmployeeInfo.employee_id, EmployeeInfo.employee_name, EmployeeInfo.date_of_birthday, EmployeeInfo.family, WorkPlace.position, WorkPlace.salary, WorkPlace.comp_auto, WorkPlace.start_of_working, Company.company_name "
+    #                     "FROM EmployeeInfo JOIN WorkPlace ON EmployeeInfo.workplace_id=WorkPlace.workplace_id "
+    #                     "JOIN Company ON WorkPlace.company_id=Company.company_id "
+    #                     "ORDER BY EmployeeInfo.employee_id;")
+    #
+    #
+    #         rows = cur.fetchall()
+    #         print rows
+    #
+    #     except mydb.Error, e:
+    #
+    #         print "Error %d: %s" % (e.args[0],e.args[1])
+    #         sys.exit(1)
+    #
+    #     finally:
+    #         if con:
+    #             con.close()
+    #         return rows
 
-        try:
-            con = mydb.connect( self.host, self.db_user_name, self.password, self.db_name);
 
-            cur = con.cursor()
-            cur.execute("SELECT VERSION()")
-
-            ver = cur.fetchone()
-
-            print "Database version : %s " % ver
-
-        except mydb.Error, e:
-
-            print "Error %d: %s" % (e.args[0],e.args[1])
-            sys.exit(1)
-
-        finally:
-
-            if con:
-                con.close()
-
-    @classmethod
     def ShowAllInfo(self):
-        con = None
-        rows = []
+        print 'Start...'
+
+        rows = None
 
         try:
-            con = mydb.connect( self.host, self.db_user_name, self.password, self.db_name);
+            client = MongoClient()
+            client = MongoClient('localhost', 27017)
+            db = client.attendance_records
+            employees = db.employee_info
+            rows = [employees.count()]
+            for employee in employees.find():
+                rows.append(employee)
 
-            cur = con.cursor()
-            cur.execute("SELECT EmployeeInfo.employee_id, EmployeeInfo.employee_name, EmployeeInfo.date_of_birthday, EmployeeInfo.family, WorkPlace.position, WorkPlace.salary, WorkPlace.comp_auto, WorkPlace.start_of_working, Company.company_name "
-                        "FROM EmployeeInfo JOIN WorkPlace ON EmployeeInfo.workplace_id=WorkPlace.workplace_id "
-                        "JOIN Company ON WorkPlace.company_id=Company.company_id;")
+            rows = tuple(rows)
+            # print type(rows)
+            # print rows
 
-            rows = cur.fetchall()
 
         except mydb.Error, e:
-
             print "Error %d: %s" % (e.args[0],e.args[1])
             sys.exit(1)
-
         finally:
-            if con:
-                con.close()
             return rows
 
-    @classmethod
+
+
     def ShowTableCompanies(self):
         con = None
         rows = []
@@ -71,6 +79,10 @@ class MyDataDase:
             cur.execute("SELECT * FROM Company;")
 
             rows = cur.fetchall()
+            print 'Big type: ', type(rows)
+
+            for row in rows:
+                print type(row), ' : ', row
 
         except mydb.Error, e:
 
@@ -82,7 +94,6 @@ class MyDataDase:
                 con.close()
             return rows
 
-    @classmethod
     def ShowTableEmployeeInfo(self):
         con = None
 
@@ -107,7 +118,6 @@ class MyDataDase:
                 con.close()
             return rows
 
-    @classmethod
     def ShowTableWorkPlace(self):
         con = None
 
@@ -132,7 +142,6 @@ class MyDataDase:
                 con.close()
             return rows
 
-    @classmethod
     def ShowTableVisiting(self):
         con = None
 
@@ -157,7 +166,6 @@ class MyDataDase:
                 con.close()
             return rows
 
-    @classmethod
     def Accounting(self):
         con = None
 
@@ -180,7 +188,6 @@ class MyDataDase:
                 con.close()
             return rows
 
-    @classmethod
     def GetVisitingById(self, _id):
         con = None
 
@@ -204,7 +211,6 @@ class MyDataDase:
                 con.close()
             return rows
 
-    @classmethod
     def AddVisiting(self, request):
         con = None
 
@@ -228,7 +234,6 @@ class MyDataDase:
             if con:
                 con.close()
 
-    @classmethod
     def DeleteVisiting(self, request):
         con = None
 
@@ -247,7 +252,6 @@ class MyDataDase:
             if con:
                 con.close
 
-    @classmethod
     def ShowEmployeeWithFamily(self ,request):
         con = None
         rows = None
@@ -275,7 +279,6 @@ class MyDataDase:
                 con.close
             return rows
 
-    @classmethod
     def DateSearch(self ,request):
         con = None
         rows = None
@@ -303,7 +306,6 @@ class MyDataDase:
                 con.close
             return rows
 
-    @classmethod
     def ExactlySearch(self, request):
         con = None
         rows = None
@@ -331,7 +333,6 @@ class MyDataDase:
                 con.close
             return rows
 
-    @classmethod
     def BooleanModeSearch(self, request):
         con = None
         rows = None
@@ -339,12 +340,17 @@ class MyDataDase:
         try:
             con = mydb.connect( self.host, self.db_user_name, self.password, self.db_name);
             cur = con.cursor()
+
+            a = "+(+" + request["name"]
+            a.replace(" ", " +")
+
             cur.execute("SELECT EmployeeInfo.employee_id, EmployeeInfo.employee_name, EmployeeInfo.date_of_birthday, EmployeeInfo.family, "
                         "WorkPlace.position, WorkPlace.salary, WorkPlace.comp_auto, WorkPlace.start_of_working, Company.company_name "
                         "FROM EmployeeInfo "
                         "JOIN WorkPlace ON EmployeeInfo.workplace_id=WorkPlace.workplace_id "
                         "JOIN Company ON WorkPlace.company_id=Company.company_id "
-                        "WHERE MATCH(EmployeeInfo.employee_name) AGAINST ('" + request["name"] + "' IN BOOLEAN MODE);")
+                        "WHERE MATCH(EmployeeInfo.employee_name) AGAINST ('" + a + ")' IN BOOLEAN MODE);")
+
             rows = cur.fetchall()
 
             con.commit()
@@ -431,10 +437,4 @@ class MyDataDase:
                     cur.execute("INSERT INTO EmployeeInfo "
                                    "VALUES(" + employee.attrib["employee_id"] + ", '" + employee.attrib["employee_name"] + "', '" + employee.attrib["date_of_birthday"] + "', " + employee.attrib["family"] + ", " + employee.attrib["workplace_id"] + ");")
 
-
-
-
-
         con.commit()
-
-# SELECT * FROM EmployeeInfo WHERE MATCH(employee_name) AGAINST('taras' IN BOOLEAN MODE);
